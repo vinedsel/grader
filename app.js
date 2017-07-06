@@ -1,9 +1,13 @@
-function grader() {
+var total = 0;
 
-  let grade = document.getElementById("gradeValue");
+var sum = 0;
+
+function gradeConv() {
+
+  var grade = parseInt(document.getElementById(“gradeValue”).value);
 
   if (grade >=90 && grade <= 100) {
-    alert("A");
+    document.("A");
   } else if (grade >= 80 && grade <= 90) {
     alert("B");
   } else if (grade >= 70 && grade <= 80) {
@@ -17,4 +21,4 @@ function grader() {
 
 document.getElementById("grdButton");
 document.getElementById("gradeValue");
-addEventListener("click", grader());
+addEventListener("click", gradeConv());
