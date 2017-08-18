@@ -3,13 +3,13 @@ var sum = 0;
 
 function gradeConv() {
 
-  var grade1 = parseInt(document.getElementById(“grade1”).value);
+  var grade1 = parseInt(document.getElementById("grade1").value);
   document.getElementById('letter1').innerHTML = returnGrade(grade1);
 
-  var grade2 = parseInt(document.getElementById(“grade2”).value);
+  var grade2 = parseInt(document.getElementById("grade2").value);
   document.getElementById('letter2').innerHTML = returnGrade(grade2);
 
-  var grade3 = parseInt(document.getElementById(“grade3”).value);
+  var grade3 = parseInt(document.getElementById("grade3").value);
   document.getElementById('letter3').innerHTML = returnGrade(grade3);
 
 };
